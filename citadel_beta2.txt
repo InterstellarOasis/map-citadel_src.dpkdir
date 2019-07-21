@@ -1,0 +1,34 @@
+Beta 2: finished unless i find some horrible bug
+
+Citadel: A map for Tremulous
+-About the same size as ATCS or Tremor
+-an entry for the mapping contest on tremulous.net/phpBB2/
+-sorta inspired by Atlantis by David Gibbins, also Hamunaptra by Dasprid, also socks nice egypt textures
+
+A group of marines wake to find themselves crashed in a ancient desert temple, some of the crew from their dropship are missing, so the rest of the team set out to find them so they can repair the dropship and continue on their way to the service facility. They dont reckon on the aliens lurking in the shadows, hungry for more delicous human food.
+
+assets used:
+
+textures: mostly egyptsoc set by sock, some from existing tremulous maps - sirius by ingar, transit by stannum
+
+models: dropship by overflow, torches by sock, palm tree by todd gantzler
+
+sounds: 
+22331_Black_Boe_wind.wav from http://freesound.iua.upf.edu/usersViewSingle.php?id=124894, 28357_ERH_prayer.wav from http://freesound.iua.upf.edu/samplesViewSingle.php?id=28357
+29939_acclivity_Fire1.wav from http://freesound.iua.upf.edu/samplesViewSingle.php?id=29939
+
+blaa:
+
+build time: ~2 months on and off
+
+compile time: ~5 mins on x2 3800+
+
+compile options:
+[q3map2] -meta -custinfoparms "[MapFile]"
+[q3map2] -vis -saveprt "[MapFile]"
+[q3map2] -light -samples 2 -patchshadows -bounce 8 -fastbounce -bouncegrid -dirty -dirtmode 1 "[MapFile]"
+
+map file/other stuff might be availible from http://g00gul.net/maps/ ... who knows :P
+
+Thanks to the Testers: [mDc]Thorn, Iltavuos, [Derelict]Fukacz, [mDc]Minisori.sp, [Derelict]Hugirl, [CoW]Alex, Fralib82[ITA], "spanish_inquisition, cerebral, [CoW]neowampyre, (CY)Kang(F), McBain, Walter@Sparta, DeoxiZ, [TC]Billy, |KoR| WireDDD, [NULL]Badger, sPlitPin, CLOU_PL, }MG{JumpHaround, [CoW]Shotgunboy, }MG{Rocinante, {NoS}BANKAI{ATP}, Fakr-CZ- and James Bond, also DVSoftware & Thorn again for the server.
+
