@@ -82,6 +82,16 @@ textures/citadel/smooth_block01b
 	}
 }
 
+textures/citadel/water_nodraw
+{
+	qer_trans 0.3
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm water
+	//surfaceparm nomarks
+	surfaceparm nolightmap
+	surfaceparm nodraw
+}
 
 textures/citadel/water
 {
