@@ -12,13 +12,13 @@ textures/citadel/cushion_block01b
 {
 	surfaceparm dust
 	surfaceparm nodamage
-	qer_editorimage textures/egyptsoc_mat/block01b.jpg
+	qer_editorimage textures/egyptsoc_mat/block01b
 	{
 		map $lightmap
 		blendfunc GL_ONE GL_ZERO
 	}
 	{
-		map textures/egyptsoc_mat/block01b.jpg
+		map textures/egyptsoc_mat/block01b
 		blendfunc filter
 	}
 	
@@ -27,7 +27,7 @@ textures/citadel/cushion_block01b
 textures/citadel/smoke
 {
 	{
-		map textures/citadel/smoke.tga
+		map textures/citadel/smoke
 		blendfunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
@@ -36,7 +36,7 @@ textures/citadel/smoke
 
 textures/citadel/smooth_block01d
 {
-	qer_editorimage textures/egyptsoc_mat/block01d.jpg
+	qer_editorimage textures/egyptsoc_mat/block01d
 	q3map_shadeangle 150
 	q3map_nonplanar
 	{
@@ -44,7 +44,7 @@ textures/citadel/smooth_block01d
 		blendfunc GL_ONE GL_ZERO
 	}
 	{
-		map textures/egyptsoc_mat/block01d.jpg
+		map textures/egyptsoc_mat/block01d
 		blendfunc filter
 	}
 }
@@ -62,14 +62,14 @@ textures/citadel/orders
 		blendfunc GL_ONE GL_ZERO
 	}
 	{
-		map textures/citadel/orders.jpg
+		map textures/citadel/orders
 		blendfunc filter
 	}
 }
 
 textures/citadel/smooth_block01b
 {
-	qer_editorimage textures/egyptsoc_mat/block01b.jpg
+	qer_editorimage textures/egyptsoc_mat/block01b
 	q3map_shadeangle 150
 	q3map_nonplanar
 	{
@@ -77,7 +77,7 @@ textures/citadel/smooth_block01b
 		blendfunc GL_ONE GL_ZERO
 	}
 	{
-		map textures/egyptsoc_mat/block01b.jpg
+		map textures/egyptsoc_mat/block01b
 		blendfunc filter
 	}
 }
@@ -103,21 +103,21 @@ textures/citadel/water
 	deformVertexes wave 256 sin 0 5 6 0.5 
 	cull disable
 	{
-		map textures/citadel/water.jpg
+		map textures/citadel/water
 		alphaGen const 0.2
 		blendfunc blend
 		tcMod scale 0.5 0.5
 		tcMod scroll 0.5 0.5
 	}
 	{
-		map textures/citadel/water.jpg
+		map textures/citadel/water
 		alphaGen const 0.2
 		blendfunc blend
 		tcMod scale 0.5 0.5
 		tcMod scroll -0.5 0.5
 	}
 	{
-		map textures/citadel/water.jpg
+		map textures/citadel/water
 		blendfunc GL_SRC_ALPHA GL_ONE
 		alphaGen const 0.4
 		tcGen environment
@@ -130,7 +130,7 @@ textures/citadel/water
 
 textures/citadel/skybox
 {
-	qer_editorimage env/citadelsky/citadelsky_up.jpg
+	qer_editorimage env/citadelsky/citadelsky_up
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_surfacelight 53
@@ -141,7 +141,7 @@ textures/citadel/skybox
 
 textures/citadel/flare_glow
 {
-	qer_editorimage textures/citadel/flare_glow.jpg
+	qer_editorimage textures/citadel/flare_glow
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -150,7 +150,7 @@ textures/citadel/flare_glow
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/citadel/flare_glow.jpg
+		map textures/citadel/flare_glow
 		blendfunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphagen portal 256
@@ -159,7 +159,7 @@ textures/citadel/flare_glow
 
 textures/citadel/script
 {
-	qer_editorimage textures/citadel/script.jpg
+	qer_editorimage textures/citadel/script
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -168,7 +168,7 @@ textures/citadel/script
 	q3map_surfacelight 50
 	q3map_lightsubdivide 32
 	{
-		map textures/citadel/script.jpg
+		map textures/citadel/script
 		blendfunc add
 		rgbGen wave sawtooth 0.9 0.1 0 4
 	}
@@ -180,10 +180,10 @@ textures/citadel/grate
 	surfaceparm trans
 	cull none
 	nopicmip
-	qer_editorimage textures/egyptsoc_floor/grate2b.tga
+	qer_editorimage textures/egyptsoc_floor/grate2b
 	qer_alphafunc GE_128 0.5
 	{
-		map textures/egyptsoc_floor/grate2b.tga
+		map textures/egyptsoc_floor/grate2b
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
 		depthWrite
@@ -197,18 +197,18 @@ textures/citadel/grate
 
 textures/citadel/liglight
 {
-	qer_editorimage textures/egyptsoc_sfx/lig_064-04y1.jpg
+	qer_editorimage textures/egyptsoc_sfx/lig_064-04y1
 	surfaceparm nomarks
 	{
 		map $lightmap
 		blendfunc gl_one gl_zero
 	}
 	{
-		map textures/egyptsoc_sfx/lig_064-04y1.jpg
+		map textures/egyptsoc_sfx/lig_064-04y1
 		blendfunc filter
 	}
 	{
-		map textures/egyptsoc_sfx/lig_064-04y.blend.jpg
+		map textures/egyptsoc_sfx/lig_064-04y.blend
 		blendfunc add
 	}
 }
@@ -220,13 +220,13 @@ models/mapobjects/citadel/palm4/palmfrond
 	surfaceparm alphashadow
 	cull none
 	nopicmip
-	qer_editorimage textures/citadel/palm4/palmfrond.tga
+	qer_editorimage textures/citadel/palm4/palmfrond
 	qer_alphafunc GE_128 0.5
 	q3map_shadeangle 120
 	q3map_nonplanar
     	//deformVertexes wave 25 sin 3 2 .1 0.1
 	{
-		map textures/citadel/palm4/palmfrond.tga
+		map textures/citadel/palm4/palmfrond
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
 		depthWrite
@@ -240,7 +240,7 @@ models/mapobjects/citadel/palm4/palmfrond
 
 models/mapobjects/citadel/palm4/palmbark
 {
-	qer_editorimage textures/citadel/palm4/palmbark.tga
+	qer_editorimage textures/citadel/palm4/palmbark
 	q3map_shadeangle 120
 	q3map_nonplanar
 	{
@@ -248,7 +248,7 @@ models/mapobjects/citadel/palm4/palmbark
 		blendFunc GL_ONE GL_ZERO
 	}
 	{
-		map textures/citadel/palm4/palmbark.tga
+		map textures/citadel/palm4/palmbark
 		blendFunc filter
 	}
 }
@@ -260,7 +260,7 @@ models/mapobjects/citadel/palm4/palmbark
 
 textures/citadel/sockter/torchflame
 {
-	qer_editorimage	textures/citadel/sockter/flame1_editor.tga
+	qer_editorimage	textures/citadel/sockter/flame1_editor
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm trans
@@ -269,17 +269,17 @@ textures/citadel/sockter/torchflame
 //	q3map_surfacelight 1000
 	sort nearest
 	{
-		animMap 10 textures/citadel/sockter/flame1.tga textures/citadel/sockter/flame2.tga textures/citadel/sockter/flame3.tga textures/citadel/sockter/flame4.tga textures/citadel/sockter/flame5.tga textures/citadel/sockter/flame6.tga textures/citadel/sockter/flame7.tga textures/citadel/sockter/flame8.tga
+		animMap 10 textures/citadel/sockter/flame1 textures/citadel/sockter/flame2.tga textures/citadel/sockter/flame3.tga textures/citadel/sockter/flame4.tga textures/citadel/sockter/flame5.tga textures/citadel/sockter/flame6.tga textures/citadel/sockter/flame7.tga textures/citadel/sockter/flame8.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave inverseSawtooth 0 1 0 10
 	}	
 	{
-		animMap 10 textures/citadel/sockter/flame2.tga textures/citadel/sockter/flame3.tga textures/citadel/sockter/flame4.tga textures/citadel/sockter/flame5.tga textures/citadel/sockter/flame6.tga textures/citadel/sockter/flame7.tga textures/citadel/sockter/flame8.tga textures/citadel/sockter/flame1.tga
+		animMap 10 textures/citadel/sockter/flame2 textures/citadel/sockter/flame3.tga textures/citadel/sockter/flame4.tga textures/citadel/sockter/flame5.tga textures/citadel/sockter/flame6.tga textures/citadel/sockter/flame7.tga textures/citadel/sockter/flame8.tga textures/citadel/sockter/flame1.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sawtooth 0 1 0 10
 	}	
 	{
-		map textures/citadel/sockter/flameball.tga
+		map textures/citadel/sockter/flameball
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sin .6 .2 0 .6	
 	}
@@ -287,22 +287,22 @@ textures/citadel/sockter/torchflame
 
 textures/citadel/sockter/wood1toplit
 {
-	qer_editorimage	textures/citadel/sockter/wood1toplit.tga
+	qer_editorimage	textures/citadel/sockter/wood1toplit
 	q3map_nonplanar
 	q3map_shadeAngle 179
 
 	{
-		map textures/citadel/sockter/wood1toplit.tga
+		map textures/citadel/sockter/wood1toplit
 		rgbGen vertex
 	}
 	{
-		map textures/citadel/sockter/wood1glow.tga
+		map textures/citadel/sockter/wood1glow
 		blendFunc add
 		tcMod rotate -6
 		rgbGen wave sin .8 .1 0 .6	
 	}
 	{
-		map textures/citadel/sockter/wood1glow.tga
+		map textures/citadel/sockter/wood1glow
 		blendFunc add
 		tcMod rotate 8
 	}
@@ -310,12 +310,12 @@ textures/citadel/sockter/wood1toplit
 
 textures/citadel/sockter/wood1topout
 {
-	qer_editorimage	textures/citadel/sockter/wood1topout.tga
+	qer_editorimage	textures/citadel/sockter/wood1topout
 	q3map_nonplanar
 	q3map_shadeAngle 120
 
 	{
-		map textures/citadel/sockter/wood1topout.tga
+		map textures/citadel/sockter/wood1topout
 		rgbGen const ( 0.3 0.3 0.3 )
 	}
 }
@@ -325,9 +325,9 @@ textures/citadel/sockter/wood1topout
 textures/citadel/dropship/laser_s
 {
 	cull disable
-	qer_editorimage textures/citadel/dropship/laser.jpg
+	qer_editorimage textures/citadel/dropship/laser
 	{
-		map textures/citadel/dropship/laser.jpg
+		map textures/citadel/dropship/laser
 		blendfunc add
 		rgbGen lightingDiffuse
 	}
@@ -344,13 +344,13 @@ textures/citadel/dropship/engwin_s
 
 textures/citadel/dropship/backdoor_s
 {
-	qer_editorimage textures/citadel/dropship/dropship.jpg
+	qer_editorimage textures/citadel/dropship/dropship
 	{
 		map $lightmap
 		blendfunc GL_ONE GL_ZERO
 	}
 	{
-		map textures/citadel/dropship/dropship.jpg
+		map textures/citadel/dropship/dropship
 		blendfunc filter
 	}
 }

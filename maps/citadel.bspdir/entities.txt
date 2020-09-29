@@ -410,12 +410,12 @@
 "classname" "target_speaker"
 "origin" "-384 832 96"
 "spawnflags" "1"
-"noise" "sound/citadel/22331_Black_Boe_wind.wav"
+"noise" "sound/citadel/22331_black_boe_wind"
 }
 {
 "classname" "target_speaker"
 "origin" "-368 -528 80"
-"noise" "sound/citadel/28357_ERH_prayer.wav"
+"noise" "sound/citadel/28357_erh_prayer"
 "targetname" "target_speaker1"
 }
 {
@@ -443,5 +443,5 @@
 "classname" "target_speaker"
 "origin" "1064 664 -208"
 "spawnflags" "1"
-"noise" "sound/citadel/29939_acclivity_Fire1.wav"
+"noise" "sound/citadel/29939_acclivity_fire1"
 }

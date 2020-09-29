@@ -3,7 +3,7 @@
 // ======================================================================
 textures/sockter/torchflame
 {
-	qer_editorimage	textures/sockter/flame1_editor.tga
+	qer_editorimage	textures/sockter/flame1_editor
 	qer_alphafunc greater 0.5
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -13,17 +13,17 @@ textures/sockter/torchflame
 	cull none
 	q3map_surfacelight 7500
 	{
-		animMap 10 textures/sfx/flame1.tga textures/sfx/flame2.tga textures/sfx/flame3.tga textures/sfx/flame4.tga textures/sfx/flame5.tga textures/sfx/flame6.tga textures/sfx/flame7.tga textures/sfx/flame8.tga
+		animMap 10 textures/sfx/flame1 textures/sfx/flame2.tga textures/sfx/flame3.tga textures/sfx/flame4.tga textures/sfx/flame5.tga textures/sfx/flame6.tga textures/sfx/flame7.tga textures/sfx/flame8.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave inverseSawtooth 0 1 0 10
 	}	
 	{
-		animMap 10 textures/sfx/flame2.tga textures/sfx/flame3.tga textures/sfx/flame4.tga textures/sfx/flame5.tga textures/sfx/flame6.tga textures/sfx/flame7.tga textures/sfx/flame8.tga textures/sfx/flame1.tga
+		animMap 10 textures/sfx/flame2 textures/sfx/flame3.tga textures/sfx/flame4.tga textures/sfx/flame5.tga textures/sfx/flame6.tga textures/sfx/flame7.tga textures/sfx/flame8.tga textures/sfx/flame1.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sawtooth 0 1 0 10
 	}	
 	{
-		map textures/sfx/flameball.tga
+		map textures/sfx/flameball
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sin .6 .2 0 .6	
 	}
@@ -31,22 +31,22 @@ textures/sockter/torchflame
 
 textures/sockter/wood1toplit
 {
-	qer_editorimage	textures/sockter/wood1toplit.tga
+	qer_editorimage	textures/sockter/wood1toplit
 	q3map_nonplanar
 	q3map_shadeAngle 179
 
 	{
-		map textures/sockter/wood1toplit.tga
+		map textures/sockter/wood1toplit
 		rgbGen vertex
 	}
 	{
-		map textures/sockter/wood1glow.tga
+		map textures/sockter/wood1glow
 		blendFunc add
 		tcMod rotate -6
 		rgbGen wave sin .8 .1 0 .6	
 	}
 	{
-		map textures/sockter/wood1glow.tga
+		map textures/sockter/wood1glow
 		blendFunc add
 		tcMod rotate 8
 	}
@@ -54,12 +54,12 @@ textures/sockter/wood1toplit
 
 textures/sockter/wood1topout
 {
-	qer_editorimage	textures/sockter/wood1topout.tga
+	qer_editorimage	textures/sockter/wood1topout
 	q3map_nonplanar
 	q3map_shadeAngle 120
 
 	{
-		map textures/sockter/wood1topout.tga
+		map textures/sockter/wood1topout
 		rgbGen const ( 0.3 0.3 0.3 )
 	}
 }
@@ -69,7 +69,7 @@ textures/sockter/wood1topout
 // ======================================================================
 textures/nightball/nightball_skybox
 {
-	qer_editorimage textures/nightball/nightball_view.tga
+	qer_editorimage textures/nightball/nightball_view
 	skyparms env/nightball/nightball - -
 
 	q3map_sunExt 0.851 0.945 1.0 100 320 40 3 16
@@ -92,13 +92,13 @@ textures/egyptsoc_mat/sand1b
 {
 	q3map_nonplanar
 	q3map_shadeangle 50
-	qer_editorimage textures/egyptsoc_mat/sand1b.tga
+	qer_editorimage textures/egyptsoc_mat/sand1b
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/egyptsoc_mat/sand1b.tga
+		map textures/egyptsoc_mat/sand1b
 		blendFunc filter
 	}
 }
@@ -113,7 +113,7 @@ models/mapobjects/multiplant/bannanaleaf
 	nopicmip
 	deformVertexes wave 150 sin 0 1 0 .3
 	{
-		map models/mapobjects/multiplant/bannanaleaf.tga
+		map models/mapobjects/multiplant/bannanaleaf
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
 		depthWrite
@@ -133,13 +133,13 @@ textures/egyptsoc_mat/block01d
 {
 	q3map_nonplanar
 	q3map_shadeangle 70
-	qer_editorimage textures/egyptsoc_mat/block01d.tga
+	qer_editorimage textures/egyptsoc_mat/block01d
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/egyptsoc_mat/block01d.tga
+		map textures/egyptsoc_mat/block01d
 		blendFunc filter
 	}
 }
@@ -153,7 +153,7 @@ models/mapobjects/skel/skel
     cull disable
     surfaceparm alphashadow
         {
-                map models/mapobjects/skel/skel.tga
+                map models/mapobjects/skel/skel
                 alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -166,13 +166,13 @@ models/mapobjects/skel/xray
     cull disable
     q3map_surfacelight 300	
         {
-                map models/mapobjects/skel/xray.tga
+                map models/mapobjects/skel/xray
                 blendfunc add
                 rgbGen wave sin 1 .8 0 .3
         }
         {
 		
-                map models/mapobjects/bitch/hologirl2.tga
+                map models/mapobjects/bitch/hologirl2
                 tcMod scroll -6 -.2
                 tcgen environment
 		blendFunc GL_ONE GL_ONE

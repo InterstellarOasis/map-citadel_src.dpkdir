@@ -67,11 +67,11 @@ textures/common/donotenter
 //
 //textures/common/energypad
 //{
-//	qer_editorimage textures/sfx/bluegoal.tga
+//	qer_editorimage textures/sfx/bluegoal
 //	surfaceparm nolightmap
 //	cull twosided
 //	{
-//		map textures//bluegoal.tga
+//		map textures//bluegoal
 //		blendFunc GL_ONE GL_SRC_ALPHA
 //		tcGen environment
 //		tcMod turb 0 0.25 0 0.05
@@ -101,7 +101,7 @@ textures/common/invisible // solid, transparent polygons, casts shadows
 {
 	surfaceparm nolightmap			
         {
-                map textures/common/invisible.tga
+                map textures/common/invisible
                 alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -110,12 +110,12 @@ textures/common/invisible // solid, transparent polygons, casts shadows
 
 textures/common/mirror1
 {
-	qer_editorimage textures/common/mirror1.tga
+	qer_editorimage textures/common/mirror1
 	surfaceparm nolightmap
 	portal
   
 	{
-		map textures/common/mirror1.tga
+		map textures/common/mirror1
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
@@ -126,16 +126,16 @@ textures/common/mirror1
 
 textures/common/mirror2
 {
-	qer_editorimage textures/common/qer_mirror.tga
+	qer_editorimage textures/common/qer_mirror
 	surfaceparm nolightmap
 	portal
 	{
-		map textures/common/mirror1.tga
+		map textures/common/mirror1
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
         {
-               map textures/sfx/mirror.tga
+               map textures/sfx/mirror
 	       blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
         }
 
@@ -183,7 +183,7 @@ textures/common/nodrop
 
 textures/common/noimpact
 {
-	qer_editorimage textures/common/nolightmap.tga
+	qer_editorimage textures/common/nolightmap
 	surfaceparm noimpact
 }
 
@@ -204,11 +204,11 @@ textures/common/origin
 
 textures/common/portal
 {
-	qer_editorimage textures/common/qer_portal.tga
+	qer_editorimage textures/common/qer_portal
 	surfaceparm nolightmap
 	portal
 	{
-		map textures/common/mirror1.tga
+		map textures/common/mirror1
 		tcMod turb 0 0.25 0 0.05
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
@@ -237,7 +237,7 @@ textures/common/terrain
 textures/common/terrain2
 {
 	q3map_terrain
-	qer_editorimage textures/common/terrain.tga
+	qer_editorimage textures/common/terrain
 	surfaceparm dust
 	surfaceparm nodraw
 	surfaceparm nomarks
@@ -246,11 +246,11 @@ textures/common/terrain2
 
 textures/common/timportal
 {
-	qer_editorimage textures/common/qer_portal.tga
+	qer_editorimage textures/common/qer_portal
 	portal
 	surfaceparm nolightmap
 	{
-		map textures/common/portal.tga
+		map textures/common/portal
 		tcMod turb 0 0.25 0 0.05
 		blendFunc GL_ONE GL_SRC_ALPHA
 		depthWrite
@@ -322,7 +322,7 @@ textures/common/lightgrid
 textures/ladder/ladder
 {
       qer_trans .75
-      qer_editorimage textures/ladder/ladder.jpg
+      qer_editorimage textures/ladder/ladder
       surfaceparm ladder
       surfaceparm nodraw
       surfaceparm nolightmap
