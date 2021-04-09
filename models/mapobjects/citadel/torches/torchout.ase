@@ -27,17 +27,17 @@
 		}
 	}
 	*MATERIAL	1	{
-		*MATERIAL_NAME	"textures/sockter/wood1topout"
+		*MATERIAL_NAME	"textures/citadel/sockter/wood1topout"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.821893	0.689407
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/sockter/wood1topout"
+			*MAP_NAME	"textures/citadel/sockter/wood1topout"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\sockter\wood1topout.tga"
+			*BITMAP	"..\textures\citadel\sockter\wood1topout.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -57,17 +57,17 @@
 		}
 	}
 	*MATERIAL	3	{
-		*MATERIAL_NAME	"textures/sockter/wood1burnt"
+		*MATERIAL_NAME	"textures/citadel/sockter/wood1burnt"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.891320	0.803873
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/sockter/wood1burnt"
+			*MAP_NAME	"textures/citadel/sockter/wood1burnt"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\sockter\wood1burnt.tga"
+			*BITMAP	"..\textures\citadel\sockter\wood1burnt.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

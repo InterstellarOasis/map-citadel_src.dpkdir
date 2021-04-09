@@ -57,17 +57,17 @@
 		}
 	}
 	*MATERIAL	3	{
-		*MATERIAL_NAME	"textures/sockter/torchflame"
+		*MATERIAL_NAME	"textures/citadel/sockter/torchflame"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.633645	0.171534
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/sockter/torchflame"
+			*MAP_NAME	"textures/citadel/sockter/torchflame"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\sockter\flame1_editor.tga"
+			*BITMAP	"..\textures\citadel\sockter\torchflame"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
