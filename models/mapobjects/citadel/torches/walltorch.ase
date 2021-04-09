@@ -27,17 +27,17 @@
 		}
 	}
 	*MATERIAL	1	{
-		*MATERIAL_NAME	"textures/base_trim/melty_pewter"
+		*MATERIAL_NAME	"textures/citadel/sockter/melty_pewter"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.653780	0.412390
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/base_trim/melty_pewter"
+			*MAP_NAME	"textures/citadel/sockter/melty_pewter"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\base_trim\melty_pewter.jpg"
+			*BITMAP	"..\textures\citadel\sockter\melty_pewter.jpg"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -57,47 +57,47 @@
 		}
 	}
 	*MATERIAL	3	{
-		*MATERIAL_NAME	"textures/sockter/wood1burnt"
+		*MATERIAL_NAME	"textures/citadel/sockter/wood1burnt"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.891320	0.803873
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/sockter/wood1burnt"
+			*MAP_NAME	"textures/citadel/sockter/wood1burnt"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\sockter\wood1burnt.tga"
+			*BITMAP	"..\textures\citadel\sockter\wood1burnt.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
 	*MATERIAL	4	{
-		*MATERIAL_NAME	"textures/sockter/wood1toplit"
+		*MATERIAL_NAME	"textures/citadel/sockter/wood1toplit"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.563324	0.144678
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/sockter/wood1toplit"
+			*MAP_NAME	"textures/citadel/sockter/wood1toplit"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\sockter\wood1toplit.tga"
+			*BITMAP	"..\textures\citadel\sockter\wood1toplit.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
 	*MATERIAL	5	{
-		*MATERIAL_NAME	"textures/sockter/torchflame"
+		*MATERIAL_NAME	"textures/citadel/sockter/torchflame"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.633645	0.171534
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/sockter/torchflame"
+			*MAP_NAME	"textures/citadel/sockter/torchflame"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\sockter\flame1_editor.tga"
+			*BITMAP	"..\textures\citadel\sockter\torchflame.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
