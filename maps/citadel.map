@@ -22885,127 +22885,127 @@ citadel/smooth_block01b
 {
 "classname" "misc_model"
 "origin" "756.338 -586.031 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 -64.7979"
 }
 {
 "classname" "misc_model"
 "origin" "747.506 -587.447 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 -35.6824"
 }
 {
 "classname" "misc_model"
 "origin" "748.879 -579.074 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 12.381"
 }
 {
 "classname" "misc_model"
 "origin" "752 -604 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 -29.1155"
 }
 {
 "classname" "misc_model"
 "origin" "744 -600 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 -0"
 }
 {
 "classname" "misc_model"
 "origin" "750 -594 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 48.0631"
 }
 {
 "classname" "misc_model"
 "origin" "742.873 -617.544 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 27.3731"
 }
 {
 "classname" "misc_model"
 "origin" "741.792 -608.665 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 56.4886"
 }
 {
 "classname" "misc_model"
 "origin" "750.107 -610.355 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 104.552"
 }
 {
 "classname" "misc_model"
 "origin" "765.915 -622.726 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 -13.0177"
 }
 {
 "classname" "misc_model"
 "origin" "759.338 -616.663 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 16.0978"
 }
 {
 "classname" "misc_model"
 "origin" "766.766 -612.563 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 64.1612"
 }
 {
 "classname" "misc_model"
 "origin" "766.07 -601.099 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 8.25797"
 }
 {
 "classname" "misc_model"
 "origin" "762.141 -593.063 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 37.3735"
 }
 {
 "classname" "misc_model"
 "origin" "770.55 -591.937 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 85.4369"
 }
 {
 "classname" "misc_model"
 "origin" "778.54 -614.422 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 -20.8318"
 }
 {
 "classname" "misc_model"
 "origin" "771.2 -609.31 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 8.28374"
 }
 {
 "classname" "misc_model"
 "origin" "778.001 -604.237 -319.625"
-"model" "models/tremulous_compat/buildables/shells/rifle-shell.md3"
+"model" "models/tremulous/weapons/shells/rifle-shell.md3"
 "angles" "90 0 56.3471"
 }
 {
 "classname" "misc_model"
 "origin" "699.526 -585.814 -319.375"
-"model" "models/tremulous_compat/buildables/shells/shotgun-shell.md3"
+"model" "models/tremulous/weapons/shells/shotgun-shell.md3"
 "angles" "-90 0 165.371"
 }
 {
 "classname" "misc_model"
 "origin" "689.587 -596.998 -319.375"
-"model" "models/tremulous_compat/buildables/shells/shotgun-shell.md3"
+"model" "models/tremulous/weapons/shells/shotgun-shell.md3"
 "angles" "-90 0 -122.157"
 }
 {
 "classname" "misc_model"
 "origin" "683.526 -585.814 -319.375"
-"model" "models/tremulous_compat/buildables/shells/shotgun-shell.md3"
+"model" "models/tremulous/weapons/shells/shotgun-shell.md3"
 "angles" "-90 0 165.371"
 }
 {
