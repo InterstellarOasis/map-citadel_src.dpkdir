@@ -23300,13 +23300,13 @@ transit/jher_flood_d_blood3
 {
 "classname" "misc_model"
 "origin" "743.5 -557.875 -318.375"
-"model" "models/mapobjects/citadel/rifle/rifle.md3"
+"model" "models/tremulous/weapons/rifle/rifle.md3"
 "angles" "2.90714e-006 -16.7649 90"
 }
 {
 "classname" "misc_model"
 "origin" "704.375 -564.25 -318.5"
-"model" "models/mapobjects/citadel/shotgun/shotgun.md3"
+"model" "models/tremulous/weapons/shotgun/shotgun.md3"
 "angles" "2.18861e-014 -47.2798 -90"
 }
 {
