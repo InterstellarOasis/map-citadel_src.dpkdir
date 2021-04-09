@@ -354,3 +354,17 @@ textures/citadel/dropship/backdoor_s
 		blendfunc filter
 	}
 }
+
+// A slick brush that only clips players
+// Usable on sky to prevent granger wallwalking
+// To be replaced by proper common texture later
+textures/citadel/clip_nowallwalk
+{
+	qer_trans .5
+
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm slick
+	surfaceparm trans
+}
