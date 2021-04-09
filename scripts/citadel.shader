@@ -365,6 +365,7 @@ textures/citadel/clip_nowallwalk
 	surfaceparm nodraw
 	surfaceparm nolightmap
 	surfaceparm nomarks
+	surfaceparm playerclip
 	surfaceparm slick
 	surfaceparm trans
 }
