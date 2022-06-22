@@ -21312,7 +21312,7 @@ citadel/smooth_block01b
 {
 "classname" "func_door"
 "angle" "90"
-"team" "ab1"
+"group" "ab1"
 {
 ( 272 -1960 -192 ) ( 268 -1968 -192 ) ( 256 -1888 -192 ) egyptsoc_trim/256-03b 224 160 180 0.5 0.5 134217728 0 0
 ( 268 -1968 -192 ) ( 268 -1968 -320 ) ( 260 -1968 -320 ) egyptsoc_trim/256-03b 224 0 0 -0.5 0.5 134217728 0 0
@@ -21327,7 +21327,7 @@ citadel/smooth_block01b
 {
 "classname" "func_door"
 "angle" "270"
-"team" "ab1"
+"group" "ab1"
 {
 ( 268 -1968 -192 ) ( 272 -1976 -192 ) ( 256 -2048 -192 ) egyptsoc_trim/256-03b 224 224 0 -0.5 0.5 134217728 0 0
 ( 268 -1968 -320 ) ( 268 -1968 -192 ) ( 260 -1968 -192 ) egyptsoc_trim/256-03b 224 0 0 -0.5 0.5 134217728 0 0
@@ -21394,7 +21394,7 @@ citadel/smooth_block01b
 }
 {
 "classname" "func_door"
-"team" "ab2"
+"group" "ab2"
 "angle" "0"
 {
 ( -656 -944 -192 ) ( -672 -976 -192 ) ( -672 -944 -192 ) egyptsoc_trim/256-03b 32 0 0 -0.5 0.5 134217728 0 0
@@ -21409,7 +21409,7 @@ citadel/smooth_block01b
 }
 {
 "classname" "func_door"
-"team" "ab2"
+"group" "ab2"
 "angle" "180"
 {
 ( -672 -944 -192 ) ( -672 -976 -192 ) ( -688 -944 -192 ) egyptsoc_trim/256-03b 160 0 0 0.5 0.5 134217728 0 0
@@ -21424,7 +21424,7 @@ citadel/smooth_block01b
 }
 {
 "classname" "func_door"
-"team" "c1"
+"group" "c1"
 "angle" "270"
 {
 ( -176 -528 64 ) ( -208 -512 64 ) ( -176 -512 64 ) egyptsoc_trim/256-03b 32 0 0 -0.5 0.5 134217728 0 0
@@ -21439,7 +21439,7 @@ citadel/smooth_block01b
 }
 {
 "classname" "func_door"
-"team" "c1"
+"group" "c1"
 "angle" "90"
 {
 ( -208 -496 64 ) ( -176 -512 64 ) ( -208 -512 64 ) egyptsoc_trim/256-03b 32 0 0 -0.5 0.5 134217728 0 0
@@ -22114,7 +22114,7 @@ citadel/smooth_block01b
 {
 "classname" "func_door"
 "angle" "90"
-"team" "cb2"
+"group" "cb2"
 {
 ( -592 -496 64 ) ( -560 -512 64 ) ( -592 -512 64 ) egyptsoc_trim/256-03b 32 0 0 -0.5 0.5 134217728 0 0
 ( -592 -512 -64 ) ( -592 -496 128 ) ( -592 -512 128 ) egyptsoc_trim/256-03b 32 0 0 -0.5 0.5 134217728 0 0
@@ -22128,7 +22128,7 @@ citadel/smooth_block01b
 }
 {
 "classname" "func_door"
-"team" "cb2"
+"group" "cb2"
 "angle" "270"
 {
 ( -560 -528 64 ) ( -592 -512 64 ) ( -560 -512 64 ) egyptsoc_trim/256-03b 32 0 0 -0.5 0.5 134217728 0 0
@@ -22166,7 +22166,7 @@ citadel/smooth_block01b
 {
 "classname" "trigger_stage"
 "origin" "512 -488 -256"
-"team" "1"
+"group" "1"
 "stage" "2"
 "target" "func_door1"
 }
@@ -23268,13 +23268,13 @@ transit/jher_flood_d_blood3
 "origin" "696 -488 -256"
 "target" "func_door2"
 "stage" "2"
-"team" "1"
+"group" "1"
 }
 {
 "classname" "trigger_stage"
 "origin" "1032 -1344 -256"
 "target" "func_door3"
-"team" "1"
+"group" "1"
 "stage" "2"
 }
 {
@@ -23342,7 +23342,7 @@ transit/jher_flood_d_blood3
 {
 "classname" "trigger_stage"
 "origin" "512 -528 -256"
-"team" "1"
+"group" "1"
 "stage" "2"
 "target" "target_print1"
 }
