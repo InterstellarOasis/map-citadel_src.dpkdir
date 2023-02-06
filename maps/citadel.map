@@ -1,10 +1,10 @@
 {
 "classname" "worldspawn"
 "message" "Citadel"
-"_color" "1 1 1"
-"_ambient" "4"
 "enabledust" "1"
 "gridsize" "64 64 128"
+"_color" "1 1 1"
+"_ambient" "4"
 {
 ( -1024 -96 128 ) ( -1024 -160 128 ) ( -1088 -96 128 ) common/caulk 0 128 0 0.5 0.5 134217728 0 0
 ( -1024 -96 64 ) ( -1088 -96 64 ) ( -1024 -96 -64 ) egyptsoc_trim/v128-01b 0 0 0 0.5 0.5 134217728 0 0
