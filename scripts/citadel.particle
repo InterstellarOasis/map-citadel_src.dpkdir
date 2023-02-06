@@ -4,35 +4,35 @@ citadel/smoke
 	{
 		particle
 		{
-		shader sync textures/citadel/smoke
-		displacement 0 0 0 ~36
+			shader sync textures/citadel/smoke
+			displacement 0 0 0 ~36
 
-		velocityType		static
-	
-		velocityDir		linear
-	
-		velocityMagnitude	40
-		velocity		0 0 1 ~0.2
+			velocityType static
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		-0.1 0 0.1 ~0.3
-		accelerationMagnitude	35
+			velocityDir linear
+
+			velocityMagnitude 40
+			velocity 0 0 1 ~0.2
+
+			accelerationType static
+			accelerationDir linear
+			acceleration -0.1 0 0.1 ~0.3
+			accelerationMagnitude 35
 
 
-		radius		0 20 110
-		alpha			120 0.5 0
-		rotation	0 ~360 ~360
-		bounce		0.0
-		
-		color 0 { 1 0.746456 0.188357 } { 0 0 0 }
-		lifeTime 4000
+			radius 0 20 110
+			alpha 120 0.5 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
-		dynamicLight 0 2 300 { 1 0.746456 0.188357 }
+			color 0 { 1 0.746456 0.188357 } { 0 0 0 }
+			lifeTime 4000
 
+			dynamicLight 0 2 300 { 1 0.746456 0.188357 }
 		}
-	count infinite
-	delay 0
-	period 270 - ~0%
+
+		count infinite
+		delay 0
+		period 270 - ~0%
 	}
 }

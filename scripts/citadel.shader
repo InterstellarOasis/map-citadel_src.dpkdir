@@ -21,7 +21,7 @@ textures/citadel/cushion_block01b
 		map textures/egyptsoc_mat/block01b
 		blendfunc filter
 	}
-	
+
 }
 
 textures/citadel/smoke
@@ -100,7 +100,7 @@ textures/citadel/water
 	surfaceparm trans
 	surfaceparm water
 	surfaceparm nomarks
-	deformVertexes wave 256 sin 0 5 6 0.5 
+	deformVertexes wave 256 sin 0 5 6 0.5
 	cull disable
 	{
 		map textures/citadel/water
@@ -175,7 +175,7 @@ textures/citadel/script
 }
 
 textures/citadel/grate
-{	
+{
 	surfaceparm alphashadow
 	surfaceparm trans
 	cull none
@@ -216,7 +216,7 @@ textures/citadel/liglight
 //palm tree shaders
 
 models/mapobjects/citadel/palm4/palmfrond
-{	
+{
 	surfaceparm alphashadow
 	cull none
 	nopicmip
@@ -224,7 +224,7 @@ models/mapobjects/citadel/palm4/palmfrond
 	qer_alphafunc GE_128 0.5
 	q3map_shadeangle 120
 	q3map_nonplanar
-    	//deformVertexes wave 25 sin 3 2 .1 0.1
+	//deformVertexes wave 25 sin 3 2 .1 0.1
 	{
 		map textures/citadel/palm4/palmfrond
 		blendFunc GL_ONE GL_ZERO
@@ -253,10 +253,7 @@ models/mapobjects/citadel/palm4/palmbark
 	}
 }
 
-// ======================================================================
 // Wall Torch Stuff - Thanks to Sockter / dasprid
-// ======================================================================
-
 
 textures/citadel/sockter/torchflame
 {
@@ -272,16 +269,16 @@ textures/citadel/sockter/torchflame
 		animMap 10 textures/citadel/sockter/flame1 textures/citadel/sockter/flame2.tga textures/citadel/sockter/flame3.tga textures/citadel/sockter/flame4.tga textures/citadel/sockter/flame5.tga textures/citadel/sockter/flame6.tga textures/citadel/sockter/flame7.tga textures/citadel/sockter/flame8.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave inverseSawtooth 0 1 0 10
-	}	
+	}
 	{
 		animMap 10 textures/citadel/sockter/flame2 textures/citadel/sockter/flame3.tga textures/citadel/sockter/flame4.tga textures/citadel/sockter/flame5.tga textures/citadel/sockter/flame6.tga textures/citadel/sockter/flame7.tga textures/citadel/sockter/flame8.tga textures/citadel/sockter/flame1.tga
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sawtooth 0 1 0 10
-	}	
+	}
 	{
 		map textures/citadel/sockter/flameball
 		blendFunc GL_ONE GL_ONE
-		rgbGen wave sin .6 .2 0 .6	
+		rgbGen wave sin .6 .2 0 .6
 	}
 }
 
@@ -299,7 +296,7 @@ textures/citadel/sockter/wood1toplit
 		map textures/citadel/sockter/wood1glow
 		blendFunc add
 		tcMod rotate -6
-		rgbGen wave sin .8 .1 0 .6	
+		rgbGen wave sin .8 .1 0 .6
 	}
 	{
 		map textures/citadel/sockter/wood1glow
