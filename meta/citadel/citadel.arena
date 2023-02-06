@@ -1,5 +1,6 @@
 {
-	map      "citadel"
+	map "citadel"
 	longname "Citadel"
-	type     "tremulous"
+	author "gareth"
+	type "tremulous"
 }

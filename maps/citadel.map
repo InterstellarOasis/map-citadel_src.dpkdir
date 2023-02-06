@@ -1,8 +1,8 @@
 {
 "classname" "worldspawn"
+"message" "Citadel"
 "_color" "1 1 1"
 "_ambient" "4"
-"message" "Citadel"
 "enabledust" "1"
 "gridsize" "64 64 128"
 {
